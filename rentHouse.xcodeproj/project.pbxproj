@@ -14,6 +14,16 @@
 		0D3811DC1FA437E1009841EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3811DA1FA437E1009841EF /* LaunchScreen.storyboard */; };
 		0D3811E71FA437E1009841EF /* rentHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3811E61FA437E1009841EF /* rentHouseTests.swift */; };
 		0D3811F21FA437E1009841EF /* rentHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3811F11FA437E1009841EF /* rentHouseUITests.swift */; };
+		0D4E01A61FB682DF00873288 /* finalViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E01A51FB682DF00873288 /* finalViewViewController.swift */; };
+		0DD77CB81FB405C200074A5F /* SingleViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD77CB71FB405C200074A5F /* SingleViewViewController.swift */; };
+		8A2E7EBD1FB2B93A0053FE83 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E7EBC1FB2B93A0053FE83 /* AddPlaceViewController.swift */; };
+		8A2E7EBF1FB2C1C10053FE83 /* addressViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E7EBE1FB2C1C10053FE83 /* addressViewTableViewCell.swift */; };
+		8A2E7EC11FB2C2C10053FE83 /* MainAddressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E7EC01FB2C2C10053FE83 /* MainAddressTableViewController.swift */; };
+		8A32FC131FAEBC4200EE144D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A32FC121FAEBC4200EE144D /* Users.swift */; };
+		8A8EE47B1FAFAA8F00FEC8AE /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EE47A1FAFAA8F00FEC8AE /* place.swift */; };
+		8A8EE47D1FAFBC9A00FEC8AE /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EE47C1FAFBC9A00FEC8AE /* LoginVCViewController.swift */; };
+		8A8EE47F1FAFBDCF00FEC8AE /* SignupVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EE47E1FAFBDCF00FEC8AE /* SignupVCViewController.swift */; };
+		8A8EE4811FAFD18400FEC8AE /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8EE4801FAFD18400FEC8AE /* homePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		0D3811ED1FA437E1009841EF /* rentHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rentHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3811F11FA437E1009841EF /* rentHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rentHouseUITests.swift; sourceTree = "<group>"; };
 		0D3811F31FA437E1009841EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4E01A51FB682DF00873288 /* finalViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewViewController.swift; sourceTree = "<group>"; };
+		0DD77CB71FB405C200074A5F /* SingleViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewViewController.swift; sourceTree = "<group>"; };
+		8A2E7EBC1FB2B93A0053FE83 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		8A2E7EBE1FB2C1C10053FE83 /* addressViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addressViewTableViewCell.swift; sourceTree = "<group>"; };
+		8A2E7EC01FB2C2C10053FE83 /* MainAddressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddressTableViewController.swift; sourceTree = "<group>"; };
+		8A32FC121FAEBC4200EE144D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		8A8EE47A1FAFAA8F00FEC8AE /* place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
+		8A8EE47C1FAFBC9A00FEC8AE /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		8A8EE47E1FAFBDCF00FEC8AE /* SignupVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVCViewController.swift; sourceTree = "<group>"; };
+		8A8EE4801FAFD18400FEC8AE /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +118,18 @@
 			isa = PBXGroup;
 			children = (
 				0D3811D11FA437E0009841EF /* AppDelegate.swift */,
+				8A8EE47A1FAFAA8F00FEC8AE /* place.swift */,
 				0D3811D31FA437E0009841EF /* ViewController.swift */,
 				0D3811D51FA437E1009841EF /* Main.storyboard */,
+				0D4E01A51FB682DF00873288 /* finalViewViewController.swift */,
+				0DD77CB71FB405C200074A5F /* SingleViewViewController.swift */,
+				8A2E7EBE1FB2C1C10053FE83 /* addressViewTableViewCell.swift */,
+				8A2E7EC01FB2C2C10053FE83 /* MainAddressTableViewController.swift */,
+				8A2E7EBC1FB2B93A0053FE83 /* AddPlaceViewController.swift */,
+				8A8EE4801FAFD18400FEC8AE /* homePageViewController.swift */,
+				8A8EE47E1FAFBDCF00FEC8AE /* SignupVCViewController.swift */,
+				8A8EE47C1FAFBC9A00FEC8AE /* LoginVCViewController.swift */,
+				8A32FC121FAEBC4200EE144D /* Users.swift */,
 				0D3811D81FA437E1009841EF /* Assets.xcassets */,
 				0D3811DA1FA437E1009841EF /* LaunchScreen.storyboard */,
 				0D3811DD1FA437E1009841EF /* Info.plist */,
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8EE4811FAFD18400FEC8AE /* homePageViewController.swift in Sources */,
+				8A2E7EC11FB2C2C10053FE83 /* MainAddressTableViewController.swift in Sources */,
+				8A8EE47D1FAFBC9A00FEC8AE /* LoginVCViewController.swift in Sources */,
+				0DD77CB81FB405C200074A5F /* SingleViewViewController.swift in Sources */,
+				0D4E01A61FB682DF00873288 /* finalViewViewController.swift in Sources */,
 				0D3811D41FA437E0009841EF /* ViewController.swift in Sources */,
+				8A32FC131FAEBC4200EE144D /* Users.swift in Sources */,
+				8A2E7EBD1FB2B93A0053FE83 /* AddPlaceViewController.swift in Sources */,
 				0D3811D21FA437E0009841EF /* AppDelegate.swift in Sources */,
+				8A2E7EBF1FB2C1C10053FE83 /* addressViewTableViewCell.swift in Sources */,
+				8A8EE47B1FAFAA8F00FEC8AE /* place.swift in Sources */,
+				8A8EE47F1FAFBDCF00FEC8AE /* SignupVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
